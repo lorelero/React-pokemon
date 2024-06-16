@@ -1,0 +1,55 @@
+.active {
+  color: white;
+  text-decoration: none;
+}
+
+.inactive {
+  color: #2ECCFA;
+  text-decoration: none;
+}
+
+.nav-fondo {
+  background-color: #58585A;
+  align-items: center;
+}
+
+.img-icon {
+  width: 30px;
+}
+
+
+.home-page {
+  background-image: url('./assets/fondopoke.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pokemones-page {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pokemones-list {
+  width: 180px;
+}
+
+.img-detalle-poke {
+  width: 150px;
+  height: 150px;
+}
+
+.cuadro-detalle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #dee2e6;
+  width: 400px;
+}
